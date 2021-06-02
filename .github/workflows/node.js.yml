@@ -20,12 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
-        with:
-          node-version: '14.x'
-          registry-url: 'https://npm.pkg.github.com'
-          scope: '@fellow-worker'
       - run: npm install
-      - run: echo registry=https://npm.pkg.github.com/fellow-worker
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.AUTH_GITHUB_TOKEN }}
