@@ -1,7 +1,6 @@
 {
-  "name": "bbcs-web-icon",
+  "name": "@fellow-worker/bbcs-web-icons",
   "version": "0.1.0",
-  "private": false,
   "license": "MIT",
   "author": {
     "email": "fellow-worker@outlook.com",
@@ -72,8 +71,5 @@
     "@storybook/preset-create-react-app": "^3.1.7",
     "@storybook/react": "^6.2.9",
     "@types/styled-components": "^5.1.9"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@fellow-worker"
   }
 }
