@@ -24,7 +24,7 @@ jobs:
           node-version: '14.x'
           registry-url: 'https://npm.pkg.github.com'
           scope: '@fellow-worker'
-      - run: npm ci
+      - run: npm install
       - run: echo registry=https://npm.pkg.github.com/fellow-worker
       - run: npm publish
         env:
