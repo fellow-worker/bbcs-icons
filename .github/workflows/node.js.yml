@@ -34,3 +34,10 @@ jobs:
         run: yarn publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Publish generated content to GitHub Pages
+        uses: tsunematsu21/actions-publish-gh-pages@v1.0.1
+        with:
+          dir: docs
+          branch: github-pages
+          token: ${{ secrets.ACCESS_TOKEN }}
