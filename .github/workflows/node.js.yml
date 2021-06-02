@@ -33,7 +33,7 @@ jobs:
       - name: Install & build 🔧 
         run: |
             yarn
-            build-storybook
+            yarn run build-storybook
           
       - name: Publish 🚀
         run: yarn publish
