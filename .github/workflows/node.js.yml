@@ -31,7 +31,7 @@ jobs:
             yarn run build-storybook
 
       - name: Publish
-        run: yarn publish
+        run: yarn publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
