@@ -36,7 +36,9 @@ jobs:
             yarn run build-storybook
 
       - name: Publish 🚀
-        run: yarn publish
+        run: |
+          echo "//npm.pkg.github.com/:_authToken=${{ secrets.AUTH_GITHUB_TOKEN }}" > ~/.npmrc
+          yarn publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.AUTH_GITHUB_TOKEN }}
 
