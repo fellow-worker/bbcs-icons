@@ -1,7 +1,7 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: Publish Package
+name: Publish & Deploy
 
 on:
   push:
@@ -21,26 +21,16 @@ jobs:
 
       - name: Setup
         uses: actions/setup-node@v2
-        with:
-          node-version: '14.x'
-          registry-url: 'https://npm.pkg.github.com'
-          always-auth: true
-          # Defaults to the user or organization that owns the workflow file
-          scope: '@fellow-worker'
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.AUTH_GITHUB_TOKEN }}
 
       - name: Install & build 🔧
         run: |
             yarn
             yarn run build-storybook
 
-      - name: Publish 🚀
-        run: |
-          echo "//npm.pkg.github.com/:_authToken=${{ secrets.AUTH_GITHUB_TOKEN }}" > ~/.npmrc
-          yarn publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.AUTH_GITHUB_TOKEN }}
+      - name: Publish
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.3
