@@ -11,16 +11,20 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [14.x]
+    permissions:
+      contents: read
+      packages: write
     steps:
       - uses: actions/checkout@v2
+      # Setup .npmrc file to publish to GitHub Packages
       - uses: actions/setup-node@v2
-      - run: npm install
-      - run: npm publish
+        with:
+          node-version: '12.x'
+          registry-url: 'https://npm.pkg.github.com'
+          # Defaults to the user or organization that owns the workflow file
+          scope: '@fellow-worker'
+      - run: yarn
+      - run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.AUTH_GITHUB_TOKEN }}
