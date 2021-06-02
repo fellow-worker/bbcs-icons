@@ -16,16 +16,35 @@ jobs:
       contents: read
       packages: write
     steps:
-      - uses: actions/checkout@v2
-      # Setup .npmrc file to publish to GitHub Packages
-      - uses: actions/setup-node@v2
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+
+      - name: Setup
+        uses: actions/setup-node@v2
         with:
           node-version: '14.x'
           registry-url: 'https://npm.pkg.github.com'
           always-auth: true
           # Defaults to the user or organization that owns the workflow file
           scope: '@fellow-worker'
-      - run: yarn
-      - run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.AUTH_GITHUB_TOKEN }}
+
+      - name: Install & build 🔧 
+        run: |
+            yarn
+            build-storybook
+          
+      - name: Publish 🚀
+        run: yarn publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.AUTH_GITHUB_TOKEN }}
+          
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.3
+        with:
+          branch: github-pages # The branch the action should deploy to.
+          folder: storybook-static # The folder the action should deploy.
+          
+          
+      
