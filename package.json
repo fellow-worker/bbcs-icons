@@ -1,11 +1,12 @@
 {
   "name": "@fellow-worker/bbcs-web-icons",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "license": "MIT",
   "author": {
     "email": "fellow-worker@outlook.com",
     "name": "Fellow Worker"
   },
+  "homepage" : "https://fellow-worker.github.io/bbcs-icons-docs/",
   "repository": {
       "type" : "git",
       "url" : "https://github.com/fellow-worker/bbcs-web-icons.git"

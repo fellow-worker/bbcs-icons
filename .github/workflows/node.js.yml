@@ -39,5 +39,6 @@ jobs:
         uses: tsunematsu21/actions-publish-gh-pages@v1.0.1
         with:
           dir: docs
-          branch: github-pages
+          branch: main
+          repo: fellow-worker/bbcs-icons-docs
           token: ${{ secrets.ACCESS_TOKEN }}
