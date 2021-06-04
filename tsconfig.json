@@ -21,6 +21,6 @@
     "noImplicitReturns": true,
     "noImplicitAny": true,
   },
-  "include" : [ "src/**/*",  ],
-  "exclude": ["src/**/*.stories.*" ]
+  "include" : [ "**/*",  ],
+  "exclude": ["**/*.stories.*" ]
 }
