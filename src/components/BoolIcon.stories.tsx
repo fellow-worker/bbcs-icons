@@ -1,5 +1,6 @@
 import { Story, Meta } from '@storybook/react';
 import { ThemeProvider } from 'styled-components';
+import pkg from '../../package.json'
 
 import Icon, { BoolIconProps } from './BoolIcon';
 
@@ -14,7 +15,7 @@ const BoolIcon : React.FC<BoolIconProps> = (props) => {
 }
 
 export default {
-  title: 'Icons/BoolIcon',
+  title: `Icons (${pkg.version})/BoolIcon`,
   component: BoolIcon,
 } as Meta;
 
