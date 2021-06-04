@@ -1,15 +1,15 @@
 {
   "name": "@fellow-worker/bbcs-web-icons",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "license": "MIT",
   "author": {
     "email": "fellow-worker@outlook.com",
     "name": "Fellow Worker"
   },
-  "homepage" : "https://fellow-worker.github.io/bbcs-icons-docs/",
+  "homepage": "https://fellow-worker.github.io/bbcs-icons-docs/",
   "repository": {
-      "type" : "git",
-      "url" : "https://github.com/fellow-worker/bbcs-web-icons.git"
+    "type": "git",
+    "url": "https://github.com/fellow-worker/bbcs-web-icons.git"
   },
   "dependencies": {
     "react": "^17.0.2",
@@ -18,7 +18,7 @@
     "styled-components": "^5.3.0",
     "styled-icons": "^10.34.0"
   },
-  "main" : "lib/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build-typescript": "rm -rf lib && tsc --build --force --verbose",
     "start-storybook": "start-storybook -p 6006 -s public",
