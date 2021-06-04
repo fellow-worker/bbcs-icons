@@ -6,6 +6,7 @@
     "email": "fellow-worker@outlook.com",
     "name": "Fellow Worker"
   },
+  "description": "The BBCS Icons library",
   "homepage": "https://fellow-worker.github.io/bbcs-icons-docs/",
   "repository": {
     "type": "git",
