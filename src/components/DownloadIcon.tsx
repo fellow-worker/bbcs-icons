@@ -1,4 +1,4 @@
-import { Download } from '@styled-icons/boxicons-regular/Download'
+import { Download } from '@styled-icons/boxicons-solid/Download'
 
 const Icon : React.FC = (props) => {
     return <Download {...props} />

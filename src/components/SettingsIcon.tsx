@@ -1,7 +1,7 @@
-import { Settings } from '@styled-icons/material-outlined/Settings';
+import { Cog } from '@styled-icons/boxicons-solid/Cog';
 
 const Icon : React.FC = (props) => {
-    return <Settings {...props} />
+    return <Cog {...props} />
 }
 
 export default Icon;

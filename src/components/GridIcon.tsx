@@ -1,4 +1,4 @@
-import { GridAlt } from '@styled-icons/boxicons-regular/GridAlt'
+import { GridAlt } from '@styled-icons/boxicons-solid/GridAlt'
 
 const Icon : React.FC = (props) => {
     return <GridAlt {...props} />

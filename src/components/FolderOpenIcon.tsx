@@ -1,4 +1,4 @@
-import { FolderOpen } from '@styled-icons/boxicons-regular/FolderOpen';
+import { FolderOpen } from '@styled-icons/boxicons-solid/FolderOpen';
 
 const Icon : React.FC = (props) => {
     return <FolderOpen {...props} />

@@ -1,4 +1,4 @@
-import { Chalkboard } from '@styled-icons/boxicons-regular/Chalkboard';
+import { Chalkboard } from '@styled-icons/boxicons-solid/Chalkboard';
 
 const Icon : React.FC = (props) => {
     return <Chalkboard {...props} />

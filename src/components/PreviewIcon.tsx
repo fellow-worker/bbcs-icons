@@ -1,7 +1,7 @@
-import { Preview } from '@styled-icons/material-outlined/Preview';
+import { Eye } from '@styled-icons/heroicons-solid/Eye';
 
 const Icon : React.FC = (props) => {
-    return <Preview {...props} />
+    return <Eye {...props} />
 }
 
 export default Icon;

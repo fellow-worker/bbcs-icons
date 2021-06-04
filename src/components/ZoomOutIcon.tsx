@@ -1,4 +1,4 @@
-import { ZoomOut } from '@styled-icons/boxicons-regular/ZoomOut';
+import { ZoomOut } from '@styled-icons/boxicons-solid/ZoomOut';
 
 const Icon : React.FC = (props) => {
     return <ZoomOut {...props} />

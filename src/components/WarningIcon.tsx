@@ -1,4 +1,4 @@
-import { Warning } from '@styled-icons/ionicons-outline/Warning';
+import { Warning } from '@styled-icons/ionicons-solid/Warning';
 
 const Icon : React.FC = (props) => {
     return <Warning {...props} />

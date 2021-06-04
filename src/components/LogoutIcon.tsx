@@ -1,7 +1,7 @@
-import { LogOut } from '@styled-icons/boxicons-regular/LogOut'
+import { SignOutAlt } from '@styled-icons/fa-solid/SignOutAlt'
 
 const Icon : React.FC = (props) => {
-    return <LogOut {...props} />
+    return <SignOutAlt {...props} />
 }
 
 export default Icon;

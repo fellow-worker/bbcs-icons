@@ -1,4 +1,4 @@
-import { RateReview } from '@styled-icons/material-outlined/RateReview';
+import { RateReview } from '@styled-icons/material-rounded/RateReview';
 
 const Icon : React.FC = (props) => {
     return <RateReview {...props} />

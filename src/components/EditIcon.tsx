@@ -1,7 +1,7 @@
-import { Edit } from '@styled-icons/boxicons-regular/Edit';
+import { EditAlt } from '@styled-icons/boxicons-solid/EditAlt';
 
 const Icon : React.FC = (props) => {
-    return <Edit {...props} />
+    return <EditAlt {...props} />
 }
 
 export default Icon;

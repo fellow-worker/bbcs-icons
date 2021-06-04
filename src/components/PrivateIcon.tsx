@@ -1,4 +1,4 @@
-import { Hide } from '@styled-icons/boxicons-regular/Hide'
+import { Hide } from '@styled-icons/boxicons-solid/Hide'
 
 const Icon : React.FC = (props) => {
     return <Hide {...props} />

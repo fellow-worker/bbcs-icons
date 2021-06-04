@@ -1,4 +1,4 @@
-import { FileBlank } from '@styled-icons/boxicons-regular/FileBlank';
+import { FileBlank } from '@styled-icons/boxicons-solid/FileBlank';
 
 const FileIcon : React.FC = (props) => {
     return <FileBlank {...props} />

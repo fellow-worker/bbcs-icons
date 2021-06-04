@@ -1,7 +1,7 @@
-import { StatsChart } from '@styled-icons/ionicons-sharp/StatsChart';
+import { BarChartAlt2 } from '@styled-icons/boxicons-solid/BarChartAlt2';
 
 const Icon : React.FC = (props) => {
-    return <StatsChart {...props} />
+    return <BarChartAlt2 {...props} />
 }
 
 export default Icon;

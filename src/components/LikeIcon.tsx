@@ -1,4 +1,4 @@
-import { Like } from '@styled-icons/boxicons-regular/Like'
+import { Like } from '@styled-icons/boxicons-solid/Like'
 
 const Icon : React.FC = (props) => {
     return <Like {...props} />

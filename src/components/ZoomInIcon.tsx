@@ -1,4 +1,4 @@
-import { ZoomIn } from '@styled-icons/boxicons-regular/ZoomIn';
+import { ZoomIn } from '@styled-icons/boxicons-solid/ZoomIn';
 
 const Icon : React.FC = (props) => {
     return <ZoomIn {...props} />
