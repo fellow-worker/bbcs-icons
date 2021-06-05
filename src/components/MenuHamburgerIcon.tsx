@@ -1,4 +1,4 @@
-import { Menu } from '@styled-icons/boxicons-regular/Menu'
+import { Menu } from '@styled-icons/heroicons-outline/Menu'
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon : React.FC<IconProps> = ({size}) => {
