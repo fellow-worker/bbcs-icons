@@ -1,7 +1,8 @@
 import { FastForward } from '@styled-icons/boxicons-regular/FastForward'
+import { IconProps } from '../interfaces/IconsProps';
 
-const Icon : React.FC = (props) => {
-    return <FastForward {...props} />
+const Icon : React.FC<IconProps> = ({size}) => {
+    return <FastForward size={size} />
 }
 
 export default Icon;

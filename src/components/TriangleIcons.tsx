@@ -1,17 +1,18 @@
 import {  CaretLeft, CaretDown, CaretUp, CaretRight } from '@styled-icons/boxicons-regular'
+import { IconProps } from '../interfaces/IconsProps';
 
-export const TriangleDownIcon : React.FC = (props) => {
-    return <CaretDown {...props} />
+export const TriangleDownIcon : React.FC<IconProps> = ({size}) => {
+    return <CaretDown size={size} />
 }
 
-export const TriangleUpIcon : React.FC = (props) => {
-    return <CaretUp {...props} />
+export const TriangleUpIcon : React.FC<IconProps> = ({size}) => {
+    return <CaretUp size={size} />
 }
 
-export const TriangleLeftIcon : React.FC = (props) => {
-    return <CaretLeft {...props} />
+export const TriangleLeftIcon : React.FC<IconProps> = ({size}) => {
+    return <CaretLeft size={size} />
 }
 
-export const TriangleRightIcon : React.FC = (props) => {
-    return <CaretRight {...props} />
+export const TriangleRightIcon : React.FC<IconProps> = ({size}) => {
+    return <CaretRight size={size} />
 }

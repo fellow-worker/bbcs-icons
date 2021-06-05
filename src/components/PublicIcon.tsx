@@ -1,7 +1,8 @@
 import { Cloud } from '@styled-icons/boxicons-solid/Cloud'
+import { IconProps } from '../interfaces/IconsProps';
 
-const Icon : React.FC = (props) => {
-    return <Cloud {...props} />
+const Icon : React.FC<IconProps> = ({size}) => {
+    return <Cloud size={size} />
 }
 
 export default Icon;

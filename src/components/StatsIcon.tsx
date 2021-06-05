@@ -1,7 +1,8 @@
 import { BarChartAlt2 } from '@styled-icons/boxicons-solid/BarChartAlt2';
+import { IconProps } from '../interfaces/IconsProps';
 
-const Icon : React.FC = (props) => {
-    return <BarChartAlt2 {...props} />
+const Icon : React.FC<IconProps> = ({size}) => {
+    return <BarChartAlt2 size={size} />
 }
 
 export default Icon;
