@@ -1,7 +1,7 @@
 import { IconProps } from '../interfaces/IconsProps';
 import { Unlink } from '@styled-icons/boxicons-regular/Unlink';
 
-const Icon : React.FC<IconProps> = ({size}) => {
+const Icon = ({size} : IconProps) => {
     return <Unlink size={size} />
 }
 

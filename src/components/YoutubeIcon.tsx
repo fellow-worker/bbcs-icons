@@ -1,7 +1,7 @@
 import { Youtube } from '@styled-icons/bootstrap';
 import { IconProps } from '../interfaces/IconsProps';
 
-const Icon : React.FC<IconProps> = ({size}) => {
+const Icon = ({size} : IconProps) => {
     return <Youtube size={size} />
 }
 

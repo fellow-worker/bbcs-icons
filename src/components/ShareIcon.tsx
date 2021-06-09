@@ -1,7 +1,7 @@
 import { Share } from '@styled-icons/boxicons-solid/Share'
 import { IconProps } from '../interfaces/IconsProps';
 
-const Icon : React.FC<IconProps> = ({size}) => {
+const Icon = ({size} : IconProps) => {
     return <Share size={size} />
 }
 

@@ -1,7 +1,7 @@
 import { AlignLeft } from '@styled-icons/boxicons-regular/AlignLeft';
 import { IconProps } from '../interfaces/IconsProps';
 
-const Icon : React.FC<IconProps> = ({size}) => {
+const Icon = ({size} : IconProps) => {
     return <AlignLeft size={size} />
 }
 

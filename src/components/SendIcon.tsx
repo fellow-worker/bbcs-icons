@@ -1,7 +1,7 @@
 import { SendPlane } from '@styled-icons/remix-fill/SendPlane';
 import { IconProps } from '../interfaces/IconsProps';
 
-const Icon : React.FC<IconProps> = ({size}) => {
+const Icon = ({size} : IconProps) => {
     return <SendPlane size={size} />
 }
 

@@ -1,7 +1,7 @@
 import { Sun } from '@styled-icons/boxicons-solid/Sun'
 import { IconProps } from '../interfaces/IconsProps';
 
-const DayIcon : React.FC<IconProps> = ({size}) => {
+const DayIcon = ({size} : IconProps) => {
     return <Sun size={size} />
 }
 

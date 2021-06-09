@@ -1,7 +1,7 @@
 import { Video } from '@styled-icons/boxicons-solid/Video';
 import { IconProps } from '../interfaces/IconsProps';
 
-const Icon : React.FC<IconProps> = ({size}) => {
+const Icon = ({size} : IconProps) => {
     return <Video size={size} />
 }
 

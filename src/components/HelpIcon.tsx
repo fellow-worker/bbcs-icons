@@ -1,7 +1,7 @@
 import { HelpCircle } from '@styled-icons/boxicons-solid/HelpCircle'
 import { IconProps } from '../interfaces/IconsProps';
 
-const Icon : React.FC<IconProps> = ({size}) => {
+const Icon = ({size} : IconProps) => {
     return <HelpCircle size={size} />
 }
 

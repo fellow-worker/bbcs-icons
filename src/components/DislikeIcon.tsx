@@ -1,7 +1,7 @@
 import { Dislike } from '@styled-icons/boxicons-solid/Dislike'
 import { IconProps } from '../interfaces/IconsProps';
 
-const Icon : React.FC<IconProps> = ({size}) => {
+const Icon = ({size} : IconProps) => {
     return <Dislike size={size} />
 }
 

@@ -1,8 +1,8 @@
-import { FolderOpen } from '@styled-icons/boxicons-solid/FolderOpen';
+import { Plus } from '@styled-icons/boxicons-regular/Plus'
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <FolderOpen size={size} />
+    return <Plus size={size} />
 }
 
 export default Icon;
