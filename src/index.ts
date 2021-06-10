@@ -64,9 +64,9 @@ export { default as List } from './components/ListIcon';
 export { default as Minus } from './components/MinusIcon';
 export { default as Share } from './components/ShareIcon';
 export { default as Preview } from './components/PreviewIcon';
+export { default as Plus } from './components/PlusIcon';
 export { default as Link } from './components/LinkIcon';
 export { default as Unlink } from './components/UnlinkIcon';
-
 export { default as ListBullet } from './components/ListBulletIcon';
 export { default as ListOrdered } from './components/ListOrderedIcon';
 export { default as StrikeThrough } from './components/StrikeThroughIcon';
