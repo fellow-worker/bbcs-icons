@@ -1,8 +1,8 @@
-import { Search } from '@styled-icons/boxicons-regular/Search'
+import { SearchAlt } from '@styled-icons/boxicons-regular/SearchAlt'
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <Search size={size} />
+    return <SearchAlt size={size} />
 }
 
 export default Icon;
