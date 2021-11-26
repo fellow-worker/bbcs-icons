@@ -79,4 +79,6 @@ export { default as Superscript } from './components/SuperscriptIcon';
 export { default as Table } from './components/TableIcon';
 export { default as Underline } from './components/UnderlineIcon';
 export { default as Vimeo } from './components/VimeoIcon';
+export { default as WindowOpen } from './components/WindowOpenIcon';
+export { default as Windows } from './components/WindowsIcon';
 export { default as Youtube } from './components/YoutubeIcon';
