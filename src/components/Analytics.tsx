@@ -1,8 +1,8 @@
-import { Link } from '@styled-icons/material-rounded/Link';
+import { Analytics } from '@styled-icons/material-rounded/Analytics';
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <Link size={size} />
+    return <Analytics size={size} />
 }
 
 export default Icon;

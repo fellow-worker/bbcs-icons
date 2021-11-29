@@ -1,8 +1,8 @@
-import { FileBlank } from '@styled-icons/boxicons-solid/FileBlank';
+import { InsertDriveFile } from '@styled-icons/material-rounded/InsertDriveFile';
 import { IconProps } from '../interfaces/IconsProps';
 
 const FileIcon = ({size} : IconProps) => {
-    return <FileBlank size={size} />
+    return <InsertDriveFile size={size} />
 }
 
 export default FileIcon;

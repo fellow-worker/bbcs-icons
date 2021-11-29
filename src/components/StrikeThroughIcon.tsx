@@ -1,8 +1,8 @@
-import { Strikethrough } from '@styled-icons/boxicons-regular/Strikethrough';
+import { FormatStrikethrough } from '@styled-icons/material-rounded/FormatStrikethrough';
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <Strikethrough size={size} />
+    return <FormatStrikethrough size={size} />
 }
 
 export default Icon;

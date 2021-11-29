@@ -1,8 +1,8 @@
-import { ListUl } from '@styled-icons/boxicons-regular/ListUl'
+import { FormatListBulleted } from '@styled-icons/material-rounded/FormatListBulleted';
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <ListUl size={size} />
+    return <FormatListBulleted size={size} />
 }
 
 export default Icon;

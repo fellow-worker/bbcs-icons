@@ -1,8 +1,8 @@
-import { Italic } from '@styled-icons/boxicons-regular/Italic'
+import { FormatItalic } from '@styled-icons/material-rounded/FormatItalic'
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <Italic size={size} />
+    return <FormatItalic size={size} />
 }
 
 export default Icon;

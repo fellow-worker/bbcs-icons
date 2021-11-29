@@ -1,4 +1,4 @@
-import { Warning } from '@styled-icons/ionicons-solid/Warning';
+import { Warning } from '@styled-icons/material-rounded/Warning';
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {

@@ -1,4 +1,4 @@
-import { FastForward } from '@styled-icons/boxicons-regular/FastForward'
+import { FastForward } from '@styled-icons/material-rounded/FastForward'
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {

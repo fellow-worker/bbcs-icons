@@ -1,4 +1,4 @@
-import { Menu } from '@styled-icons/heroicons-outline/Menu'
+import { Menu } from '@styled-icons/material-rounded/Menu'
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {

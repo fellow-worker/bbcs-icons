@@ -1,8 +1,8 @@
-import { Rewind } from '@styled-icons/boxicons-regular/Rewind'
+import { FastRewind } from '@styled-icons/material-rounded/FastRewind'
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <Rewind size={size} />
+    return <FastRewind size={size} />
 }
 
 export default Icon;

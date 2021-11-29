@@ -1,8 +1,8 @@
-import { AlignMiddle } from '@styled-icons/boxicons-regular/AlignMiddle';
+import { FormatAlignCenter } from '@styled-icons/material/FormatAlignCenter';
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <AlignMiddle size={size} />
+    return <FormatAlignCenter size={size} />
 }
 
 export default Icon;

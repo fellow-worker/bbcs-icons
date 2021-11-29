@@ -1,8 +1,8 @@
-import { HelpCircle } from '@styled-icons/boxicons-solid/HelpCircle'
+import { Help } from '@styled-icons/material-rounded/Help'
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <HelpCircle size={size} />
+    return <Help size={size} />
 }
 
 export default Icon;

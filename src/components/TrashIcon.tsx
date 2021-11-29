@@ -1,8 +1,8 @@
-import { TrashAlt } from '@styled-icons/boxicons-solid/TrashAlt';
+import { Delete } from '@styled-icons/material-rounded/Delete';
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <TrashAlt size={size} />
+    return <Delete size={size} />
 }
 
 export default Icon;

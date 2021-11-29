@@ -1,8 +1,8 @@
-import { Dislike } from '@styled-icons/boxicons-solid/Dislike'
+import { ThumbDown } from '@styled-icons/material-rounded/ThumbDown'
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <Dislike size={size} />
+    return <ThumbDown size={size} />
 }
 
 export default Icon;

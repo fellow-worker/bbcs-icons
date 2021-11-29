@@ -1,4 +1,4 @@
-import { Share } from '@styled-icons/boxicons-solid/Share'
+import { Share } from '@styled-icons/material-rounded/Share'
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {

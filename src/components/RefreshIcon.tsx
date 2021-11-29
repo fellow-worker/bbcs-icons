@@ -1,4 +1,4 @@
-import { Refresh } from '@styled-icons/boxicons-regular/Refresh';
+import { Refresh } from '@styled-icons/material-rounded/Refresh';
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {

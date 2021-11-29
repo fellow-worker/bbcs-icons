@@ -1,18 +1,18 @@
-import {  CaretLeft, CaretDown, CaretUp, CaretRight } from '@styled-icons/boxicons-regular'
+import {  CaretLeftFill, CaretDownFill, CaretUpFill, CaretRightFill } from '@styled-icons/bootstrap'
 import { IconProps } from '../interfaces/IconsProps';
 
 export const TriangleDownIcon = ({size} : IconProps) => {
-    return <CaretDown size={size} />
+    return <CaretDownFill  size={size} />
 }
 
 export const TriangleUpIcon = ({size} : IconProps) => {
-    return <CaretUp size={size} />
+    return <CaretUpFill size={size} />
 }
 
 export const TriangleLeftIcon = ({size} : IconProps) => {
-    return <CaretLeft size={size} />
+    return <CaretLeftFill size={size} />
 }
 
 export const TriangleRightIcon = ({size} : IconProps) => {
-    return <CaretRight size={size} />
+    return <CaretRightFill size={size} />
 }

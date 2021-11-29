@@ -1,8 +1,8 @@
-import { AlignLeft } from '@styled-icons/boxicons-regular/AlignLeft';
+import { FormatAlignLeft } from '@styled-icons/material/FormatAlignLeft';
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <AlignLeft size={size} />
+    return <FormatAlignLeft size={size} />
 }
 
 export default Icon;

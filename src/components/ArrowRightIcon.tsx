@@ -1,8 +1,8 @@
-import { Link } from '@styled-icons/material-rounded/Link';
+import { ArrowForward } from '@styled-icons/material/ArrowForward'
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <Link size={size} />
+    return <ArrowForward size={size} />
 }
 
 export default Icon;

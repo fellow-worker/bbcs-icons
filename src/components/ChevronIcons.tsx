@@ -1,12 +1,12 @@
-import {  ChevronLeft, ChevronDown, ChevronUp, ChevronRight } from '@styled-icons/boxicons-regular'
+import {  ChevronLeft, KeyboardArrowDown, KeyboardArrowUp, ChevronRight } from '@styled-icons/material-rounded'
 import { IconProps } from '../interfaces/IconsProps';
 
 export const ChevronDownIcon = ({size} : IconProps) => {
-    return <ChevronDown size={size} />
+    return <KeyboardArrowDown size={size} />
 }
 
 export const ChevronUpIcon = ({size} : IconProps) => {
-    return <ChevronUp size={size} />
+    return <KeyboardArrowUp size={size} />
 }
 
 export const ChevronLeftIcon = ({size} : IconProps) => {

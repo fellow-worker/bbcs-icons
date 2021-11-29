@@ -1,8 +1,8 @@
-import { Bold } from '@styled-icons/boxicons-regular/Bold'
+import { FormatBold } from '@styled-icons/material-rounded/FormatBold'
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <Bold size={size} />
+    return <FormatBold size={size} />
 }
 
 export default Icon;

@@ -1,8 +1,8 @@
-import { Link } from '@styled-icons/material-rounded/Link';
+import { Bookmark } from '@styled-icons/material-rounded/Bookmark'
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <Link size={size} />
+    return <Bookmark size={size} />
 }
 
 export default Icon;

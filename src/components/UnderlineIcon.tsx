@@ -1,8 +1,8 @@
-import { Underline } from '@styled-icons/boxicons-regular/Underline';
+import { FormatUnderlined } from '@styled-icons/material-rounded/FormatUnderlined';
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <Underline size={size} />
+    return <FormatUnderlined size={size} />
 }
 
 export default Icon;

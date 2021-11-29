@@ -1,8 +1,8 @@
-import { Plus } from '@styled-icons/boxicons-regular/Plus'
+import { Add } from '@styled-icons/material-rounded/Add'
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <Plus size={size} />
+    return <Add size={size} />
 }
 
 export default Icon;

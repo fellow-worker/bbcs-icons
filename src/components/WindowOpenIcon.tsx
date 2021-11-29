@@ -1,8 +1,8 @@
-import { WindowOpen } from '@styled-icons/boxicons-regular/WindowOpen';
+import { OpenInBrowser } from '@styled-icons/material-rounded/OpenInBrowser';
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <WindowOpen size={size} />
+    return <OpenInBrowser size={size} />
 }
 
 export default Icon;

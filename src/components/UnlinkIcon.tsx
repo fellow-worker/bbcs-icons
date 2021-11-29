@@ -1,8 +1,8 @@
 import { IconProps } from '../interfaces/IconsProps';
-import { Unlink } from '@styled-icons/boxicons-regular/Unlink';
+import { LinkOff } from '@styled-icons/material-rounded/LinkOff';
 
 const Icon = ({size} : IconProps) => {
-    return <Unlink size={size} />
+    return <LinkOff size={size} />
 }
 
 export default Icon;

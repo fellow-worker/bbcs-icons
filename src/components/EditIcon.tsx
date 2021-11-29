@@ -1,8 +1,8 @@
-import { EditAlt } from '@styled-icons/boxicons-solid/EditAlt';
+import { Edit } from '@styled-icons/material-rounded/Edit';
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <EditAlt size={size} />
+    return <Edit size={size} />
 }
 
 export default Icon;

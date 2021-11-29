@@ -1,8 +1,8 @@
-import { ListOl } from '@styled-icons/boxicons-regular/ListOl';
+import { FormatListNumbered } from '@styled-icons/material-rounded/FormatListNumbered';
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <ListOl size={size} />
+    return <FormatListNumbered size={size} />
 }
 
 export default Icon;

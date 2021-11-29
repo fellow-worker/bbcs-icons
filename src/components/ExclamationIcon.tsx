@@ -1,8 +1,8 @@
-import { ExclamationCircle } from '@styled-icons/heroicons-solid/ExclamationCircle';
+import { WarningAmber } from '@styled-icons/material-rounded/WarningAmber';
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <ExclamationCircle size={size} />
+    return <WarningAmber size={size} />
 }
 
 export default Icon;

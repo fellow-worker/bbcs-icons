@@ -1,4 +1,4 @@
-import { Home } from '@styled-icons/boxicons-solid/Home'
+import { Home } from '@styled-icons/material-rounded/Home'
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {

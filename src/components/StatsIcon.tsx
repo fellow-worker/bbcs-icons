@@ -1,8 +1,8 @@
-import { BarChartAlt2 } from '@styled-icons/boxicons-solid/BarChartAlt2';
+import { BarChart } from '@styled-icons/material-rounded/BarChart';
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <BarChartAlt2 size={size} />
+    return <BarChart size={size} />
 }
 
 export default Icon;

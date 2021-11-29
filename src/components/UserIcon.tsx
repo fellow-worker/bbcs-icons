@@ -1,8 +1,8 @@
-import { User } from '@styled-icons/boxicons-solid/User';
+import { Person } from '@styled-icons/material-rounded/Person'
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <User size={size} />
+    return <Person size={size} />
 }
 
 export default Icon;

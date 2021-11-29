@@ -1,8 +1,8 @@
-import { GridAlt } from '@styled-icons/boxicons-solid/GridAlt'
+import { GridView } from '@styled-icons/material-rounded/GridView'
 import { IconProps } from '../interfaces/IconsProps';
 
 const Icon = ({size} : IconProps) => {
-    return <GridAlt size={size} />
+    return <GridView size={size} />
 }
 
 export default Icon;
