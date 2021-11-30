@@ -73,6 +73,7 @@ export { default as Share } from './components/ShareIcon';
 export { default as Preview } from './components/PreviewIcon';
 export { default as PreviewAlt } from './components/PreviewAltIcon';
 export { default as Plus } from './components/PlusIcon';
+export { default as Pdf } from './components/Pdf';
 export { default as Link } from './components/LinkIcon';
 export { default as Unlink } from './components/UnlinkIcon';
 export { default as ListBullet } from './components/ListBulletIcon';
