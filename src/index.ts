@@ -90,3 +90,4 @@ export { default as WindowOpen } from './components/WindowOpenIcon';
 export { default as Windows } from './components/WindowsIcon';
 export { default as Youtube } from './components/YoutubeIcon';
 export { default as Login } from './components/LoginIcon';
+export { default as Unlock } from './components/UnlockIcon';
